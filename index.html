@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PIN del gato de mel</title>
+</head>
+<body>
+    <div class="grid-container">
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-1.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-2.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-3.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-4.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-5.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-6.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-7.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-8.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-9.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-10.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-11.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-12.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-13.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-14.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-15.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-16.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-17.jpg" >
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-18.jpg" >
+
+    </div>
+        &copy; 2006 Línea de Código
+    
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector('.grid-container');
+        imagesLoaded( elem, () => {
+            var msnry = new Masonry( elem, {
+        // options
+        itemSelector: '.grid-item',
+        columnWidth: 230,
+        gutter: 20,
+        isFitWidth: true
+        });
+        } )
+        
+    </script>
+</body>
+</html>
+
+<!-- 
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-1.jpg" width="738" height="1317" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-2.jpg" width="738" height="544" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-3.jpg" width="738" height="1306" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-4.jpg" width="738" height="1307" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-5.jpg" width="738" height="1312" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-6.jpg" width="738" height="1317" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-7.jpg" width="738" height="1302" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-8.jpg" width="738" height="414" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-9.jpg" width="738" height="1295" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-10.jpg" width="738" height="13" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-11.jpg" width="1280" height="720" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-12.jpg" width="864" height="1152" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-13.jpg" width="1152" height="864" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-14.jpg" width="920" height="1280" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-15.jpg" width="822" height="1280" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-16.jpg" width="720" height="1280" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-17.jpg" width="720" height="1280" />
+        <img class="grid-item" src="imagenesdegatitos/cat-pic-18.jpg" width="720" height="1280" />
+ -->
